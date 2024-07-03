@@ -10,7 +10,8 @@
     "format": "biome --write .",
     "typecheck": "tsc --noEmit",
     "dev": "storybook dev -p 6006",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "build-storybook-direct": "build-storybook"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.1.11",
@@ -23,6 +24,9 @@
     "react-dom": "^18.3.1",
     "typescript": "^5.5.3"
   },
+  "trustedDependencies": [
+    "@storybook/cli"
+  ],
   "exports": {
     "./accordion": "./src/components/accordion.tsx",
     "./alert-dialog": "./src/components/alert-dialog.tsx",
