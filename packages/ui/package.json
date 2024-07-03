@@ -10,7 +10,7 @@
     "format": "biome --write .",
     "typecheck": "tsc --noEmit",
     "dev": "storybook dev -p 6006",
-    "build": "./node_modules/.bin/build-storybook",
+    "build": "node ./node_modules/.bin/build-storybook",
     "build-storybook-direct": "./node_modules/.bin/build-storybook"
   },
   "devDependencies": {
