@@ -10,7 +10,7 @@
     "format": "biome --write .",
     "typecheck": "tsc --noEmit",
     "dev": "storybook dev -p 6006",
-    "build": "node ./node_modules/@storybook/cli/bin/index.js build-storybook"
+    "build": "sb build-storybook"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.1.11",
