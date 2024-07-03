@@ -15,6 +15,7 @@
   "devDependencies": {
     "@storybook/addon-essentials": "^8.1.11",
     "@storybook/addon-links": "^8.1.11",
+    "@storybook/cli": "^8.1.11",
     "@storybook/react": "^8.1.11",
     "@storybook/react-vite": "^8.1.11",
     "autoprefixer": "^10.4.19",
