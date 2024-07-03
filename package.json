@@ -31,7 +31,15 @@
   },
   "trustedDependencies": [
     "@biomejs/biome",
+    "@swc/core",
     "@vercel/speed-insights",
-    "protobufjs"
+    "canvas",
+    "core-js",
+    "esbuild",
+    "protobufjs",
+    "puppeteer",
+    "sharp",
+    "supabase",
+    "workerd"
   ]
 }
