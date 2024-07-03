@@ -3,5 +3,8 @@
     "public": false,
     "github": {
       "enabled": false
+    },
+    "env": {
+      "UPSTASH_REDIS_REST_URL": "midday-redis-replication-group.ftezne.ng.0001.use1.cache.amazonaws.com"
     }
-  }
+}
