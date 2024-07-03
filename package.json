@@ -28,5 +28,10 @@
   "packageManager": "bun@1.1.16",
   "resolutions": {
     "jackspeak": "2.1.1"
-  }
+  },
+  "trustedDependencies": [
+    "@biomejs/biome",
+    "@vercel/speed-insights",
+    "protobufjs"
+  ]
 }
