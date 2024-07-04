@@ -6,5 +6,20 @@
     },
     "env": {
       "UPSTASH_REDIS_REST_URL": "midday-redis-replication-group.ftezne.ng.0001.use1.cache.amazonaws.com"
-    }
+    },
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "packages/ui/.storybook-static"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/packages/ui/.storybook-static/$1"
+      }
+    ]
 }
