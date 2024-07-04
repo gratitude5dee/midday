@@ -10,7 +10,7 @@
     "format": "biome --write .",
     "typecheck": "tsc --noEmit",
     "dev": "storybook dev -p 6006",
-    "build": "npx build-storybook"
+    "build": "build-storybook"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.1.11",
